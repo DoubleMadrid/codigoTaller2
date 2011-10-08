@@ -31,8 +31,8 @@ Animation.prototype.drawFrame = function(tick, ctx, x, y, scaleBy) {
 
 Animation.prototype.currentFrame = function() {
     return Math.floor(this.elapsedTime / this.frameDuration);
-}
-
+}		
+	
 Animation.prototype.isDone = function() {
     return (this.elapsedTime >= this.totalTime);
 }
